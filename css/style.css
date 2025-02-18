@@ -99,6 +99,11 @@ img {
   transition: transform 0.8s ease-in-out;
 }
 
+p{
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .texto.mostrar {
   transform: translateY(0);
 }
@@ -115,7 +120,7 @@ img {
   background: none;
   border: none;
   color: rgb(189, 116, 204);
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
 }
 
