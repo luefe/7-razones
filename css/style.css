@@ -43,9 +43,10 @@ img {
 }
 
 .gifs {
+  display: flex;
   width: 100%;
-  align-items: baseline;
-  justify-content: space-around;
+  justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+  
 }
 
 .gif {
@@ -143,8 +144,15 @@ img {
     /* Espaciado entre imágenes */
   }
 
-  .titulo {
+  h1 {
+  
     font-size: 30px;
+  }
+
+  .titulo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 
   .imagen {

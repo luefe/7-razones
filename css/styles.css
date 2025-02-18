@@ -204,6 +204,9 @@ body {
 
   @media (max-width: 768px) {
     
+    .frame {
+        width: 98%;
+    }
   
     h1 {
       font-size: 40px; /* Ajustar tamaño del texto si es necesario */
