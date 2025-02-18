@@ -118,7 +118,7 @@ p{
   left: 50%;
   transform: translateX(-50%);
   background: none;
-  border: none;
+  border: solid 0.5px white;
   color: rgb(189, 116, 204);
   font-size: 30px;
   cursor: pointer;
@@ -163,6 +163,10 @@ p{
   .imagen {
     width: 100%;
     /* Asegurar que ocupen todo el ancho del contenedor */
+  }
+
+  p {
+    font-size: 12px;
   }
 
   .texto {
